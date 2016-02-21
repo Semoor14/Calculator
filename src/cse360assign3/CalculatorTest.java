@@ -96,6 +96,7 @@ public class CalculatorTest {
 		
 		Calculator calc = new Calculator();
 		
+		assertEquals(calc.getHistory(),"");
 	}
 	
 }
